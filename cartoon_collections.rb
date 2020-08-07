@@ -1,13 +1,13 @@
 
 def roll_call_dwarves(dwarves)
   i = 0 
-  ordered_list =[]
-  while i < dwarves.length 
- ordered_list << dwarves.each_with_index {|value, index| puts "#{index} #{value}"}
- i += 1
+  while i < dwarves.length
+  puts "{i}.name"}
+  i += 1
   end
-  ordered_list
+  
 end
+
 
 
 
