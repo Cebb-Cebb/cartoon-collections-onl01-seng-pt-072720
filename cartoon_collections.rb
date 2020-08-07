@@ -13,7 +13,10 @@ end
 
 
 
-def long_planeteer_calls()
+def long_planeteer_calls(calls)
+  i = 0 
+  
+  
   
   
 end
@@ -21,10 +24,6 @@ end
 a = [ "a", "b", "c" ]
 a.include?("b")   #=> true
 a.include?("z")   #=> false
-
-
-
-
 
 
 
