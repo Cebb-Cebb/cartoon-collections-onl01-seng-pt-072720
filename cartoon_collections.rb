@@ -3,9 +3,9 @@ def roll_call_dwarves(dwarves)
   i = 0 
   ordered_list =[]
   while i < dwarves.length 
+  binding.pry
  ordered_list << dwarves.each_with_index {|value, index| puts "#{index} #{value}"}
  i += 1
- binding.pry
   end
   ordered_list
 end
