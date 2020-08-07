@@ -28,7 +28,7 @@ end
 
 def find_the_cheese(types)          # code an argument here
     i = 0 
-    if types.include? {|i| i.include?("cheddar")
+    if types.include? {|i| i.include?("cheddar")}
       return true
     else
       false
