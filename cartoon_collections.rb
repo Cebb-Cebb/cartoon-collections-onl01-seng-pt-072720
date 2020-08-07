@@ -8,7 +8,7 @@ def summon_captain_planet(planeteer)
  new_planetees=[]
  i = 0 
  new_planetees << planeteer.collect {|planet| planet.capitalize + "!"}
-end
+ end
  new_planetees
 end
 
