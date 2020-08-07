@@ -5,11 +5,18 @@ end
 
 
 def summon_captain_planet(planeteer)
- new_planetees=[]
- i = 0 
- new_planetees << planeteer.collect {|planet| planet.capitalize + "!"}
+ new_planetees= []
+ new_planetees << planeteer.collect {|planet| "#{planet.capitalize} + #{"!"}}
  end
- puts new_planetees
+ new_planetees
+end
+
+def summon_captain_planet(array)
+  planeteer_calls = []
+  array.collect do |calls|
+    planeteer_calls << "#{calls.capitalize}!"
+  end
+  planeteer_calls
 end
 
 
