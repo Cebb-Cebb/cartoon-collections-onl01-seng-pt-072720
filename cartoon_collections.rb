@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   i = 0 
   ordered_list =[]
   while i < dwarves.length 
-  dwarves.each_with_index {|item, index| puts "#{dwarves} #{place}"}
+  dwarves.each_with_index {|item, index| puts "#{index} #{value}"}
   ordered_list << 
 end
 
