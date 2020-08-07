@@ -27,6 +27,11 @@ a = [ "a", "b", "c" ]
 a.include?("b")   #=> true
 a.include?("z")   #=> false
 
+(1..10).include? 5  #=> true
+(1..10).include? 15 #=> false
+(1..10).member? 5   #=> true
+(1..10).member? 15  #=> false
+
 
 def find_the_cheese(types)          # code an argument here
     i = 0 
