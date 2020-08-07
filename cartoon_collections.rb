@@ -8,6 +8,15 @@ def roll_call_dwarves(dwarves)
   
 end
 
+def roll_call_dwarves (array)
+  list_of_dwarves = []
+  i = 0
+  array.each do |index,name|
+  list_of_dwarves <<  yield("#{index + 1}. (name)")
+  end
+  puts list_of_dwarves
+end
+
 
 
 
