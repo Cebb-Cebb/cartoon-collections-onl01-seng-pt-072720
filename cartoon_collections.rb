@@ -23,18 +23,15 @@ def long_planeteer_calls(calls)
 end
 
 
-a = [ "a", "b", "c" ]
-a.include?("b")   #=> true
-a.include?("z")   #=> false
 
-(1..10).include? 5  #=> true
-(1..10).include? 15 #=> false
-(1..10).member? 5   #=> true
-(1..10).member? 15  #=> false
 
 
 def find_the_cheese(types)          # code an argument here
     i = 0 
-    if types.include?("cheddar")# the array below is here to help
-                                    #cheese_types = ["cheddar", "gouda", "camembert"]
+    if types.include? {|i| i.include?("cheddar")
+      return true
+    else
+      false
+      i += 1
+    end  
 end
