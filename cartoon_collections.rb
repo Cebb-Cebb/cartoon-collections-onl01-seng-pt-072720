@@ -29,6 +29,7 @@ a.include?("z")   #=> false
 
 
 def find_the_cheese(types)          # code an argument here
-                                    # the array below is here to help
+    i = 0 
+    if types.include?("cheddar")# the array below is here to help
                                     #cheese_types = ["cheddar", "gouda", "camembert"]
 end
