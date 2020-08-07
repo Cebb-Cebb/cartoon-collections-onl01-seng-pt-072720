@@ -11,6 +11,9 @@ def summon_captain_planet(planeteer)
  new_planetees
 end
 
+a.collect {|x| x + "!"}           #=> ["a!", "b!", "c!", "d!"]
+
+
 def summon_captain_planet(array)
   planeteer_calls = []
   array.collect do |calls|
