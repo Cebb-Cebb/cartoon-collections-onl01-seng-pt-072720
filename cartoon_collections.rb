@@ -5,8 +5,12 @@ end
 
 
 def summon_captain_planet(planeteer)
- 
+ new_planetees=[]
+ i = 0 
+ planeteer.map! {|planet| 
 end
+
+names.map! {|name| name.capitalize } # now names contains ['Danil', 'Edmund']
 
 def long_planeteer_calls# code an argument here
   # Your code here
