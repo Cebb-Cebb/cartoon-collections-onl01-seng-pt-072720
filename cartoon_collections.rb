@@ -25,15 +25,10 @@ end
 
 
 
-
 def find_the_cheese(types)          # code an argument here
     cheese_types = ["cheddar", "gouda", "camembert"]
-    i = 0 
-    if types.include? {|i| i.include?("cheddar")}
-      return true
-    else
-      false
-      i += 1
+    types.find do |i|
+      cheese_types.include?(i)
     end  
 end
 
