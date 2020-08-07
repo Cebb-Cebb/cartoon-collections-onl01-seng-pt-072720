@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer)
  new_planetees=[]
  i = 0 
- planeteer.collect {|planet| planet 
+ planeteer.collect {|planet| planet.capitalize + "!"
 end
 
 names.map! {|name| name.capitalize } # now names contains ['Danil', 'Edmund']
