@@ -15,32 +15,15 @@ end
 
 def long_planeteer_calls(calls)
   i = 0 
-  
-  
-  
-  
-end
-
-a = [ "a", "b", "c" ]
-a.include?("b")   #=> true
-a.include?("z")   #=> false
-
-
-
-
-
-
-
-
-def long_planeteer_calls(array) 
-  i = 0 
-  if  array.any? {|i| i.length > 4}
+  if calls.any? { |i| i.length >= 4 }
     return true
   else 
-    return false
-  i = i + 1
-  end 
+    false
+    i += 1
+  end
 end
+  
+  
 
 
 def find_the_cheese# code an argument here
