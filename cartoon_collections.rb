@@ -10,17 +10,17 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-a.collect {|x| x + "!"}           #=> ["a!", "b!", "c!", "d!"]
 
-def summon_captain_planet(array)
-  planeteer_calls = []
-  i = 0 
-  while i < array.length 
-    planeteer_calls << array[i].capitalize + "!"
-    i += 1 
-  end 
-  planeteer_calls
-end
+
+#def summon_captain_planet(array)
+#  planeteer_calls = []
+#  i = 0 
+#  while i < array.length 
+#    planeteer_calls << array[i].capitalize + "!"
+#    i += 1 
+#  end 
+#  planeteer_calls
+#end
 
 #def summon_captain_planet(array)
 #  planeteer_calls = []
