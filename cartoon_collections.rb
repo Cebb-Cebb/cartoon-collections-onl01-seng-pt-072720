@@ -4,6 +4,7 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length 
  ordered_list << dwarves.each_with_index {|value, index| puts "#{index} #{value}"}
  i += 1
+  end
 end
 
 
