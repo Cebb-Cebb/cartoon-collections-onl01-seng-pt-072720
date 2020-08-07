@@ -1,7 +1,21 @@
-def roll_call_dwarves(dwarves,place)
-  (dwarves).each_with_index {|item, index| puts "#{dwarves} #{place}"}
+def roll_call_dwarves(dwarves)
+  i = 0 
+  ordered_list =[]
+  while i < dwarves.length 
+  dwarves.each_with_index {|item, index| puts "#{dwarves} #{place}"}
+  ordered_list << 
 end
 
+
+def roll_call_dwarves(dwarves)
+  n = 0
+  arr = []
+  dwarves.collect do |name|
+    arr << name
+    n += 1
+  end
+  puts 
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
