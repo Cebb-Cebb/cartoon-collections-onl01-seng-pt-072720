@@ -16,9 +16,9 @@ end
 def long_planeteer_calls(calls)
   i = 0 
   if calls.any? {|i| i.length > 4 }
-    true
-  else 
-    false
+  return true
+ else 
+  return false
     i += 1
   end
 end
